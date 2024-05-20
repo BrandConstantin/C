@@ -1,21 +1,21 @@
 /* Proyecto 4: Lectura de entrada de datos*/
 
-// importar librería principal de E/S
+// importar librerÃ­a principal de E/S
 #include <iostream>
 
 // Para evitar declaraciones individuales de E/S
 using namespace std;
 
-// Declaramos la función principal
+// Declaramos la funciÃ³n principal
 int main(){
 	int num1, num2;
 	
-	cout << "Introduce un número entero: "; 
+	cout << "Introduce un nÃºmero entero: "; 
 	cin >> num1;
 	cout << "Introduce un segundo entero: "; 
 	cin >> num2;
-	cout << "La suma de los números es: " << num1 + num2 << endl;
+	cout << "La suma de los nÃºmeros es: " << num1 + num2 << endl;
 	
-	// Buena práctica en funciónes enteras
+	// Buena prÃ¡ctica en funciÃ³nes enteras
 	return 0;
 }
