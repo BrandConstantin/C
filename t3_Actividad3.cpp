@@ -1,6 +1,6 @@
 /*
-La calificaci髇 de los estudiantes se obtiene como el promedio de tres notas: la nota de pr醕ticas, que cuenta un 25% del total; 
-la nota del examen te髍ico, que cuenta un 60% y la nota de participaci髇, que cuenta el 15% restante.
+La calificaci贸n de los estudiantes se obtiene como el promedio de tres notas: la nota de pr谩cticas, que cuenta un 25% del total; 
+la nota del examen te贸rico, que cuenta un 60% y la nota de participaci贸n, que cuenta el 15% restante.
 
 Desarrolla un programa en C++ que lea las tres notas del alumno y escriba su nota final.
 */
@@ -12,11 +12,11 @@ int main(){
     // notaTeoria 60%
     // notaParticipacion 15%
 
-    std::cout << "Introduce la nota de pr醕tica: "; 
+    std::cout << "Introduce la nota de pr谩ctica: "; 
     std::cin >> notaPracticas;
     std::cout << "Introduce la nota de la teoria: "; 
     std::cin >> notaTeoria;
-    std::cout << "Introduce la nota de participaci髇: "; 
+    std::cout << "Introduce la nota de participaci贸n: "; 
     std::cin >> notaParticipacion;
     
     if((notaPracticas <= 10 || notaPracticas >= 0) && 
