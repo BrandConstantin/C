@@ -1,7 +1,7 @@
 /* Actividad 5 */
 /* 
-Se debe pedir un número real i un caracter c y un segundo número real j
-En función del carácter introducido el programa mostrara como salida:
+Se debe pedir un nÃºmero real i un caracter c y un segundo nÃºmero real j
+En funciÃ³n del carÃ¡cter introducido el programa mostrara como salida:
 i+j si c es +
 i-j si c es -
 i*j si c es *
@@ -20,7 +20,7 @@ int main(){
 	do{
 		cout << "Indroduzca dos numeros reales: ";
 		cin >> x >> y;
-		cout << "Introduzca que quieres hacer con los números ('*','/','+','-',)\n";
+		cout << "Introduzca que quieres hacer con los nÃºmeros ('*','/','+','-',)\n";
 		cin >> c;
 		
 		if(c == '*' || c == '/' || c == '+' || c == '-'){
