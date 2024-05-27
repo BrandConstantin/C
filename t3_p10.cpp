@@ -1,18 +1,24 @@
-/* Llamadas a funciones */
+/* Sentencia lógica if */ 
 #include <iostream>
-#include <cmath>
-
 using namespace std;
 
 int main(){
-	double x, r;
-	cout << "Introduce un número (se admiten decimales): ";
-	cin >> x;
+	const char VOCAL = 'e';
+	char vocal;
+	bool acertado;
 	
-	r = pow(x, 3) + 4;
-	
-	cout << "x ^ 3 + 4 = " << r << endl;
-	cout << "Su raíz cuadrada es " << sqrt(x) << endl;
+	do{
+		cout << "Indroduzca una vocal: ";
+		cin >> vocal;
+		
+		if(vocal == VOCAL){
+			acertado = true;
+			cout << "Enhorabuen, has acertado\n";
+		}else{
+			cout << "No es correcto!\n";
+		}
+		
+	}while(acertado);
 	
 	return 0;
 }
