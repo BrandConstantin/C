@@ -1,14 +1,14 @@
-/* Proyecto 3: Operadores de asignaci髇 */
+/* Proyecto 3: Operadores de asignaci贸n */
 
-// importar librer韆 principal de E/S
+// importar librer铆a principal de E/S
 #include <iostream>
 
 // Para evitar declaraciones individuales de E/S
 using namespace std;
 
-// Declaramos la funci髇 principal
+// Declaramos la funci贸n principal
 int main(){
-	// Declaraci髇 de variables
+	// Declaraci贸n de variables
 	int x;
 	double d = 3.5;
 	
@@ -21,12 +21,12 @@ int main(){
 	double c = x + d;
 	double f = x - d;
 	
-	// A馻dir multiplicaci髇, divisi髇, etc
+	// A锟絘dir multiplicaci贸n, divisi贸n, etc
 	cout << x << "*" << d << "=" << a << endl;
 	cout << x << "/" << d << "=" << b  << endl;
 	cout << x << "+" << d << "=" << c << endl;
 	cout << x << "-" << d << "=" << f << endl;
 	
-	// Buena pr醕tica en funci髇es enteras
+	// Buena pr谩ctica en funciones enteras
 	return 0;
 }
