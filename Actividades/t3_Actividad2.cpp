@@ -1,13 +1,13 @@
 /* Actividad 2 en clase */
 /*
 Monta un sistema en c++ que pida por teclado 5 estaturas en float, 5 edades en int y 5 sexos en char.
-Los valores deberán ser recogidos en una sola línea de comando.
+Los valores deberÃ¡n ser recogidos en una sola lÃ­nea de comando.
 */
 
 /*
-El sistema deberá arrojar desúes de la estatura media, la edad media y desglose de los 5 sexos que se han introducido
+El sistema deberÃ¡ arrojar despÃºes de la estatura media, la edad media y desglose de los 5 sexos que se han introducido
 */
-// importar librería principal de E/S
+// importar librerÃ­a principal de E/S
 #include <iostream>
 
 // Para evitar declaraciones individuales de E/S

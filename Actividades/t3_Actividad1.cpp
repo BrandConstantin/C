@@ -5,18 +5,18 @@ Desarrolla un programa en c++ que lea la entrada de un precio de un producto en 
 
 /*
 Resultado en pantalla: Introduce el precio neto del articulo en euros
-Ej: 120 €
-Salida por pantalla: El precio IVA includio es de 145.20€
+Ej: 120 â‚¬
+Salida por pantalla: El precio IVA includio es de 145.20â‚¬
 */
 
-// importar librería principal de E/S
+// importar librerï¿½a principal de E/S
 #include <iostream>
 
 // Para evitar declaraciones individuales de E/S
 using namespace std;
 const float iva = 0.21;
 
-// Declaramos la función principal
+// Declaramos la funciï¿½n principal
 int main(){
 	double precio;
 
@@ -29,6 +29,6 @@ int main(){
 	
 	cout << "El precio IVA includio es de: " << total << endl;
 
-	// Buena práctica en funciónes enteras
+	// Buena prÃ¡ctica en funciones enteras
 	return 0;
 }
