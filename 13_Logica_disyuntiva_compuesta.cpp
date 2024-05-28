@@ -1,4 +1,4 @@
-/* Lógica disyuntiva compuesta */
+/* LÃ³gica disyuntiva compuesta */
 #include <iostream>
 using namespace std;
 
