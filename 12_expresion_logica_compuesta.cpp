@@ -1,4 +1,4 @@
-/* Expresión lógica compuesta */
+/* ExpresiÃ³n lÃ³gica compuesta */
 #include <iostream>
 using namespace std;
 
@@ -9,7 +9,7 @@ int main(){
 	cin >> nota;
 	
 	if(nota < 0 || nota > 10){
-		cout << "Nota introducida no válida\n";
+		cout << "Nota introducida no vÃ¡lida\n";
 	}else{
 		if(nota < 5.0){
 			cout << "Estas suspenso\n";
