@@ -1,5 +1,5 @@
 /*
-Exresiones aritméticas
+Exresiones aritmÃ©ticas
 */
 
 #include<iostream>
