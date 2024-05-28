@@ -1,4 +1,4 @@
-/* Sentencia lógica if */ 
+/* Sentencia lÃ³gica if */ 
 #include <iostream>
 using namespace std;
 
